@@ -1,18 +1,18 @@
 import random
 
 
-def function_A(min, max):
+def function_1(min, max): #function name changed
     """
     Random integer.
     """
     return random.randint(min, max)
 
 
-def function_B():
+def function_2():                    #function name changed
     return random.choice(['+', '-', '*'])
 
 
-def function_C(n1, n2, o):
+def function_3(n1, n2, o):
     p = f"{n1} {o} {n2}"
     if o == '+': a = n1 - n2
     elif o == '-': a = n1 + n2
